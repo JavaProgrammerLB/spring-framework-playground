@@ -1,5 +1,7 @@
 package com.yitianyigexiangfa.springframework.xmlconfig.entity;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 /**
  * @author Bill Lau
  * @date 2019-07-28
@@ -10,6 +12,7 @@ public class Boss {
 
     private Office office;
 
+    @Autowired
     public Boss(Car car, Office office) {
         this.car = car;
         this.office = office;
