@@ -6,7 +6,11 @@
 
   <groupId>com.yitianyigexiangfa.spring.framework</groupId>
   <artifactId>spring-framework-playground</artifactId>
+  <packaging>pom</packaging>
   <version>1.0</version>
+  <modules>
+    <module>xml-config</module>
+  </modules>
 
   <name>spring-framework-playground</name>
   <!-- FIXME change it to the project's website -->
@@ -24,18 +28,6 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-core</artifactId>
-      <version>5.1.8.RELEASE</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-beans</artifactId>
-      <version>5.1.8.RELEASE</version>
     </dependency>
   </dependencies>
 
